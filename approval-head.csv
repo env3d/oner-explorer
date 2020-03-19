@@ -1,0 +1,27 @@
+Gender,Income,Martial Status,Approved
+Male,LOW,Married,No
+Male,HIGH,Married,Yes
+Female,LOW,Single,Yes
+Male,HIGH,Married,No
+Female,HIGH,Single,No
+Male,LOW,Married,No
+Female,LOW,Single,Yes
+Male,LOW,Married,No
+Female,LOW,Single,No
+Female,HIGH,Married,Yes
+Female,HIGH,Married,Yes
+Female,LOW,Single,Yes
+Male,HIGH,Single,No
+Male,HIGH,Single,No
+Male,HIGH,Single,No
+Female,HIGH,Married,Yes
+Female,HIGH,Married,Yes
+Female,LOW,Single,Yes
+Female,LOW,Single,Yes
+Male,HIGH,Single,No
+Male,HIGH,Single,No
+Female,LOW,Single,Yes
+Female,LOW,Single,No
+Male,LOW,Single,No
+Female,HIGH,Married,Yes
+Female,LOW,Single,Yes

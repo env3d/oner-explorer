@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <style>
+
+      #data_table {
+	  height: 200px;
+	  overflow: auto;
+      }
+      
+      
+    </style>
+    <script src="https://unpkg.com/papaparse@5.1.1/papaparse.min.js"></script>
+    <script>
+      
+      var rules;
+
+      function ruleElement(rules) {
+	let html = ""
+	Object.keys(rules).forEach( k => {
+	  html += `<tr><td>${k}</td><td>${rules[k]}</td></tr>`;
+	});
+	return html;
+      }
+      
+      function headerElement(dataset) {
+	let elem = document.createElement('th');
+	elem.addEventListener('click', evt => {
+	  console.log(elem.innerHTML);
+	  
+	  let pred_rules = `${dataset}/${elem.innerHTML}.json`;
+	  
+	  fetch(pred_rules).then(res => {
+	    return res.json();
+	  }).then( json => {
+	    console.log(json);
+	    rules = json;
+	    
+	    document.getElementById('rules').innerHTML = "";	    
+	    rules.forEach( (r, i) => {
+	      let div = document.createElement('div');
+	      div.innerHTML =
+		[
+		  `<div = "card">`,
+		  `  <div class="card-header"> `,
+		  `    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">`,
+		  `      Using <code>${r.variable}</code> to predict <code>${elem.innerHTML}</code>. Accuracy <code>${parseFloat(r.accuracy*100).toFixed(2)}%</code>`,
+		  `    </button>`,
+		  `  </div>`, 
+		  `  <div id="collapse${i}" class="collapse">`,
+		  `    <table class = "table table-dark">${ruleElement(r.rules)}</table>`,
+		  `  <div>`,
+		  `</div>`
+		].join("");
+	      console.log(r.rules);
+	      document.getElementById('rules').append(div)
+	    });
+	  });
+	});
+	
+	return elem;
+      }
+      
+      window.addEventListener('load', () => {
+	let searchParams = new URLSearchParams(window.location.search);
+	let dataset = searchParams.has('dataset') ? searchParams.get('dataset') : 'titanic';
+	
+	fetch(`${dataset}-head.csv`).then(res => {
+	  console.log(res);
+	  return res.text();
+	}).then( csv => {
+	  json = Papa.parse(csv);
+	  var table = document.getElementById('data');
+	  json.data.forEach( (r, i) => {
+	    var row = document.createElement('tr');
+	    r.forEach( d => {
+	      var cell = i == 0 ? headerElement(dataset) : document.createElement('td');
+	      cell.innerHTML = d;
+	      row.append(cell);	      
+	    });
+	    table.append(row);
+	  });	  
+	});
+	
+      });      
+
+      
+    </script>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+	<h2>Click on a heading to generate prediction for that column</h2>
+      </div>
+      <div id='data_table' class='row'>
+	<table id='data' class='table table-dark'>
+	</table>
+      </div>
+
+      <div class='row'>
+	<div id='rules' class='accordian'></div>	  
+      </div>
+    </div>
+  </body>
+</html>

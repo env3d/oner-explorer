@@ -1,0 +1,82 @@
+province,city,group_infection,infection_case,confirmed
+Seoul,Guro-gu,Yes,Guro-gu Call Center,79
+Seoul,Dongdaemun-gu,Yes,Dongan Church,24
+Seoul,Eunpyeong-gu,Yes,Eunpyeong St. Mary's Hospital,14
+Seoul,Seongdong-gu,Yes,Seongdong-gu APT,13
+Seoul,Jongno-gu,Yes,Jongno Community Center,10
+Seoul,Jung-gu,Yes,Jung-gu Fashion Company,7
+Seoul,from other city,Yes,Shincheonji Church,6
+Seoul,-,No,etc,65
+Busan,Dongnae-gu,Yes,Onchun Church,34
+Busan,from other city,Yes,Shincheonji Church,8
+Busan,Suyeong-gu,Yes,Suyeong-gu Kindergarten,6
+Busan,Haeundae-gu,Yes,Haeundae-gu Catholic Church,6
+Busan,Jin-gu,Yes,Jin-gu Academy,4
+Busan,from other city,Yes,Cheongdo Daenam Hospital,1
+Busan,-,No,etc,32
+Daegu,Nam-gu,Yes,Shincheonji Church,4359
+Daegu,-,No,contact with patient,649
+Daegu,from other city,Yes,Cheongdo Daenam Hospital,2
+Daegu,-,No,etc,1056
+Gwangju,from other city,Yes,Shincheonji Church,9
+Gwangju,-,No,contact with patient,4
+Gwangju,-,No,overseas inflow,1
+Gwangju,-,No,etc,2
+Incheon,from other city,Yes,Guro-gu Call Center,18
+Incheon,-,No,contact with patient,5
+Incheon,from other city,Yes,Shincheonji Church,2
+Incheon,-,No,overseas inflow,1
+Incheon,-,No,etc,4
+Daejeon,-,No,contact with patient,8
+Daejeon,from other city,Yes,Shincheonji Church,2
+Daejeon,from other city,Yes,Seosan-si Laboratory,2
+Daejeon,-,No,etc,10
+Ulsan,from other city,Yes,Shincheonji Church,16
+Ulsan,-,No,contact with patient,6
+Ulsan,-,No,etc,6
+Sejong,Eojin-dong,Yes,Ministry of Oceans and Fisheries,28
+Sejong,Boram-dong,Yes,gym facility in Sejong,8
+Sejong,from other city,Yes,Shincheonji Church,1
+Sejong,-,No,etc,3
+Gyeonggi-do,from other city,Yes,Guro-gu Call Center,32
+Gyeonggi-do,from other city,Yes,Shincheonji Church,28
+Gyeonggi-do,Seongnam-si,Yes,Bundang Jesaeng Hospital,22
+Gyeonggi-do,Seongnam-si,Yes,River of Grace Community Church,19
+Gyeonggi-do,Suwon-si,Yes,Suwon Saeng Myeong Saem Church,10
+Gyeonggi-do,-,No,overseas inflow,6
+Gyeonggi-do,-,No,etc,47
+Gangwon-do,from other city,Yes,Shincheonji Church,20
+Gangwon-do,from other city,Yes,gym facility in Cheonan,1
+Gangwon-do,-,No,etc,8
+Chungcheongbuk-do,from other city,Yes,Shincheonji Church,10
+Chungcheongbuk-do,Goesan-gun,Yes,Goesan-gun Jangyeon-myeon,11
+Chungcheongbuk-do,-,No,contact with patient,6
+Chungcheongbuk-do,-,No,etc,4
+Chungcheongnam-do,Cheonan-si,Yes,gym facility in Cheonan,104
+Chungcheongnam-do,Seosan-si,Yes,Seosan-si Laboratory,8
+Chungcheongnam-do,-,No,etc,3
+Jeollabuk-do,-,No,contact with patient,2
+Jeollabuk-do,from other city,Yes,Shincheonji Church,1
+Jeollabuk-do,-,No,overseas inflow,1
+Jeollabuk-do,-,No,etc,3
+Jeollanam-do,from other city,Yes,Shincheonji Church,1
+Jeollanam-do,-,No,overseas inflow,1
+Jeollanam-do,-,No,contact with patient,1
+Jeollanam-do,-,No,etc,1
+Gyeongsangbuk-do,from other city,Yes,Shincheonji Church,517
+Gyeongsangbuk-do,Cheongdo-gun,Yes,Cheongdo Daenam Hospital,119
+Gyeongsangbuk-do,Bonghwa-gun,Yes,Bonghwa Pureun Nursing Home,58
+Gyeongsangbuk-do,from other city,Yes,Pilgrimage to Israel,49
+Gyeongsangbuk-do,Chilgok-gun,Yes,Milal Shelter,25
+Gyeongsangbuk-do,Gyeongsan-si,Yes,Gyeongsan Seorin Nursing Home,22
+Gyeongsangbuk-do,Gyeongsan-si,Yes,Gyeongsan Jeil Silver Town,17
+Gyeongsangbuk-do,Gyeongsan-si,Yes,Gyeongsan Cham Joeun Community Center,16
+Gyeongsangbuk-do,-,No,etc,322
+Gyeongsangnam-do,from other city,Yes,Shincheonji Church,32
+Gyeongsangnam-do,Geochang-gun,Yes,Geochang Church,10
+Gyeongsangnam-do,Geochang-gun,Yes,Geochang-gun Woongyang-myeon,8
+Gyeongsangnam-do,Changwon-si,Yes,Hanmaeum Changwon Hospital,7
+Gyeongsangnam-do,Changnyeong-gun,Yes,Changnyeong Coin Karaoke,7
+Gyeongsangnam-do,from other city,Yes,Onchun Church,2
+Gyeongsangnam-do,-,No,etc,19
+Jeju-do,-,No,etc,4

@@ -1,0 +1,1 @@
+[{"variable": "Gender", "accuracy": 0.6153846153846154, "rules": {"Female": "LOW", "Male": "HIGH"}}, {"variable": "Martial Status", "accuracy": 0.6538461538461539, "rules": {"Married": "HIGH", "Single": "LOW"}}, {"variable": "Approved", "accuracy": 0.5384615384615384, "rules": {"No": "HIGH", "Yes": "LOW"}}]

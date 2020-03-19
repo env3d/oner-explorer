@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+	Imagine you are working as a new bank officer.  Your job is to approve loans,
+	but you don't want to make any mistakes, so you decided to look at some historical data:
+	
+      </div>
+            
+      <pre class='row'>
+	  
+    Gender Income Martial Status Approved
+0     Male    LOW        Married       No
+1     Male   HIGH        Married      Yes
+2   Female    LOW         Single      Yes
+3     Male   HIGH        Married       No
+4   Female   HIGH         Single       No
+5     Male    LOW        Married       No
+6   Female    LOW         Single      Yes
+7     Male    LOW        Married       No
+8   Female    LOW         Single       No
+9   Female   HIGH        Married      Yes
+10  Female   HIGH        Married      Yes
+11  Female    LOW         Single      Yes
+12    Male   HIGH         Single       No
+13    Male   HIGH         Single       No
+14    Male   HIGH         Single       No
+15  Female   HIGH        Married      Yes
+16  Female   HIGH        Married      Yes
+17  Female    LOW         Single      Yes
+18  Female    LOW         Single      Yes
+19    Male   HIGH         Single       No
+20    Male   HIGH         Single       No
+21  Female    LOW         Single      Yes
+22  Female    LOW         Single       No
+23    Male    LOW         Single       No
+24  Female   HIGH        Married      Yes
+25  Female    LOW         Single      Yes
+
+      </pre>
+	
+      <div class='row'>
+	Can we use this to determine who to approve if someone comes in our door?
+      </div>
+
+      <div class='row'>
+	"Eyeballing" the data may give us an idea, but let's take a more systemic approach.
+      </div>
+      
+      <div class='row'>
+	To start, our end goal is to predict if we want to approve someone when they
+	walk into our office, and we only want to base our approval decision on just ONE of their
+	attribute.  We need to determine which attribute is most influential.
+
+	So we simply look at one attribute at a time.  Let's start with the 'Gender' attribute.
+      </div>
+
+      <pre class='row'>
+
+Gender Approved       
+Female No            3
+       Yes          12
+Male   No           10
+       Yes           1
+
+      </pre>
+
+      <div class='row'>
+	I have counted all the "Gender - Approval" combinations.  It seems like when someone is a female,
+	they are more likely to be approved (12 cases approved, 3 cases reject).
+
+	If someone is male, they are most likely rejected (10 cases reject, 1 case approve).
+
+	We can use this to create the following rules:  If female, approved.  If male, reject.
+	
+	This set of rules would have be accurate for 22 cases out of a total of 26 cases, or 84.62%
+      </div>
+
+      <div class='row'>
+	Let's do the same for the other columns:  "Income" and "Martial Status"
+      </div>
+
+      <pre class='row'>
+	
+Income Approved       
+HIGH   No            7
+       Yes           6
+LOW    No            6
+       Yes           7
+
+      </pre>
+
+      <pre class='row'>
+
+Martial Status Approved       
+Married        No            4
+               Yes           6
+Single         No            9
+               Yes           7
+
+      </pre>
+
+      If female, approve.  If male, reject. 84.62% accuracy.
+
+      High income reject, low income approve. 53.85% accuracy.
+
+      Married approved, single reject. 57.69% accuracy.
+    </div>
+  </body>
+</html>
