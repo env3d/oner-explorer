@@ -1,0 +1,305 @@
+Country,Confirmed,Deaths,Recovered
+China,High,High,High
+Italy,High,High,Med
+Spain,High,High,Low
+Germany,High,Low,Low
+Iran,High,High,High
+France,High,Med,Low
+US,Med,Low,Low
+"Korea, South",Med,Low,Low
+Switzerland,Med,Low,Low
+United Kingdom,Low,Low,Low
+Netherlands,Low,Low,Low
+Belgium,Low,Low,Low
+Austria,Low,Low,Low
+Norway,Low,Low,Low
+US,Low,Low,Low
+Sweden,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Denmark,Low,Low,Low
+Portugal,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+Malaysia,Low,Low,Low
+Brazil,Low,Low,Low
+China,Low,Low,Low
+Japan,Low,Low,Low
+Czechia,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+Israel,Low,Low,Low
+US,Low,Low,Low
+Ireland,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+Pakistan,Low,Low,Low
+Cruise Ship,Low,Low,Low
+Luxembourg,Low,Low,Low
+Turkey,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+Chile,Low,Low,Low
+Poland,Low,Low,Low
+Greece,Low,Low,Low
+US,Low,Low,Low
+Finland,Low,Low,Low
+US,Low,Low,Low
+Ecuador,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+Qatar,Low,Low,Low
+Iceland,Low,Low,Low
+Indonesia,Low,Low,Low
+Australia,Low,Low,Low
+Singapore,Low,Low,Low
+Canada,Low,Low,Low
+Thailand,Low,Low,Low
+US,Low,Low,Low
+Saudi Arabia,Low,Low,Low
+US,Low,Low,Low
+Slovenia,Low,Low,Low
+China,Low,Low,Low
+Canada,Low,Low,Low
+US,Low,Low,Low
+Romania,Low,Low,Low
+India,Low,Low,Low
+China,Low,Low,Low
+Peru,Low,Low,Low
+Philippines,Low,Low,Low
+Estonia,Low,Low,Low
+Russia,Low,Low,Low
+Bahrain,Low,Low,Low
+China,Low,Low,Low
+Egypt,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+South Africa,Low,Low,Low
+Australia,Low,Low,Low
+Australia,Low,Low,Low
+Iraq,Low,Low,Low
+Croatia,Low,Low,Low
+Mexico,Low,Low,Low
+Panama,Low,Low,Low
+Colombia,Low,Low,Low
+Canada,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Lebanon,Low,Low,Low
+Canada,Low,Low,Low
+Slovakia,Low,Low,Low
+China,Low,Low,Low
+Kuwait,Low,Low,Low
+Serbia,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+Bulgaria,Low,Low,Low
+US,Low,Low,Low
+Armenia,Low,Low,Low
+Argentina,Low,Low,Low
+US,Low,Low,Low
+Taiwan*,Low,Low,Low
+United Arab Emirates,Low,Low,Low
+China,Low,Low,Low
+San Marino,Low,Low,Low
+US,Low,Low,Low
+Algeria,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+China,Low,Low,Low
+Latvia,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Costa Rica,Low,Low,Low
+US,Low,Low,Low
+Dominican Republic,Low,Low,Low
+Uruguay,Low,Low,Low
+Hungary,Low,Low,Low
+Morocco,Low,Low,Low
+Vietnam,Low,Low,Low
+Bosnia and Herzegovina,Low,Low,Low
+China,Low,Low,Low
+Denmark,Low,Low,Low
+Australia,Low,Low,Low
+Andorra,Low,Low,Low
+US,Low,Low,Low
+Jordan,Low,Low,Low
+North Macedonia,Low,Low,Low
+Cyprus,Low,Low,Low
+Brunei,Low,Low,Low
+Lithuania,Low,Low,Low
+Moldova,Low,Low,Low
+Sri Lanka,Low,Low,Low
+US,Low,Low,Low
+Albania,Low,Low,Low
+Belarus,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+US,Low,Low,Low
+Malta,Low,Low,Low
+US,Low,Low,Low
+Venezuela,Low,Low,Low
+US,Low,Low,Low
+Australia,Low,Low,Low
+US,Low,Low,Low
+Burkina Faso,Low,Low,Low
+Tunisia,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Azerbaijan,Low,Low,Low
+Cambodia,Low,Low,Low
+Guadeloupe,Low,Low,Low
+Kazakhstan,Low,Low,Low
+US,Low,Low,Low
+New Zealand,Low,Low,Low
+Oman,Low,Low,Low
+Georgia,Low,Low,Low
+Trinidad and Tobago,Low,Low,Low
+US,Low,Low,Low
+Senegal,Low,Low,Low
+Ukraine,Low,Low,Low
+Reunion,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Uzbekistan,Low,Low,Low
+US,Low,Low,Low
+Liechtenstein,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Martinique,Low,Low,Low
+United Kingdom,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Cameroon,Low,Low,Low
+Canada,Low,Low,Low
+Bangladesh,Low,Low,Low
+Afghanistan,Low,Low,Low
+Honduras,Low,Low,Low
+Congo (Kinshasa),Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Nigeria,Low,Low,Low
+Canada,Low,Low,Low
+Cuba,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Bolivia,Low,Low,Low
+Ghana,Low,Low,Low
+Canada,Low,Low,Low
+China,Low,Low,Low
+China,Low,Low,Low
+French Guiana,Low,Low,Low
+Paraguay,Low,Low,Low
+Canada,Low,Low,Low
+Guatemala,Low,Low,Low
+Rwanda,Low,Low,Low
+Australia,Low,Low,Low
+Jamaica,Low,Low,Low
+Togo,Low,Low,Low
+France,Low,Low,Low
+US,Low,Low,Low
+US,Low,Low,Low
+Cote d'Ivoire,Low,Low,Low
+Kyrgyzstan,Low,Low,Low
+Mauritius,Low,Low,Low
+Montenegro,Low,Low,Low
+US,Low,Low,Low
+Maldives,Low,Low,Low
+Monaco,Low,Low,Low
+Canada,Low,Low,Low
+Mongolia,Low,Low,Low
+United Kingdom,Low,Low,Low
+Australia,Low,Low,Low
+Ethiopia,Low,Low,Low
+US,Low,Low,Low
+Guyana,Low,Low,Low
+Kenya,Low,Low,Low
+Mayotte,Low,Low,Low
+Seychelles,Low,Low,Low
+Barbados,Low,Low,Low
+Canada,Low,Low,Low
+Equatorial Guinea,Low,Low,Low
+Tanzania,Low,Low,Low
+US,Low,Low,Low
+Netherlands,Low,Low,Low
+"Bahamas, The",Low,Low,Low
+France,Low,Low,Low
+France,Low,Low,Low
+Gabon,Low,Low,Low
+Suriname,Low,Low,Low
+Australia,Low,Low,Low
+Cabo Verde,Low,Low,Low
+Central African Republic,Low,Low,Low
+Congo (Brazzaville),Low,Low,Low
+El Salvador,Low,Low,Low
+France,Low,Low,Low
+Liberia,Low,Low,Low
+Madagascar,Low,Low,Low
+Namibia,Low,Low,Low
+Netherlands,Low,Low,Low
+United Kingdom,Low,Low,Low
+Zimbabwe,Low,Low,Low
+Angola,Low,Low,Low
+Benin,Low,Low,Low
+Bhutan,Low,Low,Low
+Canada,Low,Low,Low
+Denmark,Low,Low,Low
+Guinea,Low,Low,Low
+Haiti,Low,Low,Low
+Kosovo,Low,Low,Low
+Mauritania,Low,Low,Low
+Nicaragua,Low,Low,Low
+Saint Lucia,Low,Low,Low
+Sudan,Low,Low,Low
+United Kingdom,Low,Low,Low
+Zambia,Low,Low,Low
+Antigua and Barbuda,Low,Low,Low
+Canada,Low,Low,Low
+Cape Verde,Low,Low,Low
+Chad,Low,Low,Low
+China,Low,Low,Low
+Djibouti,Low,Low,Low
+East Timor,Low,Low,Low
+Eritrea,Low,Low,Low
+Eswatini,Low,Low,Low
+Fiji,Low,Low,Low
+"Gambia, The",Low,Low,Low
+Holy See,Low,Low,Low
+Nepal,Low,Low,Low
+Netherlands,Low,Low,Low
+Niger,Low,Low,Low
+Papua New Guinea,Low,Low,Low
+Saint Vincent and the Grenadines,Low,Low,Low
+Somalia,Low,Low,Low
+US,Low,Low,Low
+Uganda,Low,Low,Low
+United Kingdom,Low,Low,Low
+United Kingdom,Low,Low,Low
+Australia,Low,Low,Low
+France,Low,Low,Low
+France,Low,Low,Low
+France,Low,Low,Low
+France,Low,Low,Low
+Greenland,Low,Low,Low
+Guam,Low,Low,Low
+Guernsey,Low,Low,Low
+Jersey,Low,Low,Low
+Puerto Rico,Low,Low,Low
+Republic of the Congo,Low,Low,Low
+The Bahamas,Low,Low,Low
+The Gambia,Low,Low,Low

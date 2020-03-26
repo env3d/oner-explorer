@@ -1,0 +1,1 @@
+[{"variable": "Confirmed", "accuracy": 0.19078947368421054, "rules": {"High": "China", "Low": "US", "Med": "Korea, South"}}, {"variable": "Deaths", "accuracy": 0.19407894736842105, "rules": {"High": "China", "Low": "US", "Med": "France"}}, {"variable": "Recovered", "accuracy": 0.19407894736842105, "rules": {"High": "China", "Low": "US", "Med": "Italy"}}]

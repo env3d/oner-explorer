@@ -40,10 +40,17 @@ def create_rules(dataset):
         create_fit(df, dataset, pred, cols)
 
 
-create_rules('titanic')
-        
-df = app.pandas.read_csv('approval.csv')
-df['index']=app.pandas.Series(range(len(df)))
-df[['Gender','Approved','index']].groupby(['Gender','Approved']).count()
-df[['Income','Approved','index']].groupby(['Income','Approved']).count()
-df[['Martial Status','Approved','index']].groupby(['Martial Status','Approved']).count()
+#create_rules('titanic')
+
+def stats_approval():
+    df = app.pandas.read_csv('approval.csv')
+    df['index']=app.pandas.Series(range(len(df)))
+    df[['Gender','Approved','index']].groupby(['Gender','Approved']).count()
+    df[['Income','Approved','index']].groupby(['Income','Approved']).count()
+    df[['Martial Status','Approved','index']].groupby(['Martial Status','Approved']).count()
+
+def process_covid():
+    df = pd.read_csv('../data/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/03-21-2020.csv')
+    p = df[['Confirmed','Deaths','Recovered']].apply(lambda s: ["Low" if abs(x-s.mean()) < s.std() else "Med" if abs(x-s.mean()) < 2*s.std() else "High"  for x in s], result_type="expand")
+    p.insert(0, 'Country', df['Country/Region'])
+    return p
