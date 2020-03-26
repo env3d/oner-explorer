@@ -115,5 +115,4 @@ indeed use the gender rule.
 
 What are the implications?
 
-Check out the OneR result for titanic:
-(https://env3d.github.io/oner-explorer/?dataset=titanic)[https://env3d.github.io/oner-explorer/?dataset=titanic]
+Check out the OneR result for titanic: https://env3d.github.io/oner-explorer/?dataset=titanic
