@@ -71,11 +71,10 @@ LOW    No            6
 ```
 
 What rule would be the most logical?
-
-     1. High income reject, low income approve
-     1. High income approve, low income reject
-     1. High income approve, low income approve
-     1. High income reject, low income reject
+ 1. High income reject, low income approve
+ 1. High income approve, low income reject
+ 1. High income approve, low income approve
+ 1. High income reject, low income reject
 
 ## Martial Status
 
@@ -87,11 +86,10 @@ Single         No            9
 ```
 
 Look at the above count for the martial status column. What rule would be best?
-
-     1. Married approved, single reject
-     1. Married approved, single approved
-     1. Married reject, single approved
-     1. Married reject, single reject
+ 1. Married approved, single reject
+ 1. Married approved, single approved
+ 1. Married reject, single approved
+ 1. Married reject, single reject
 
 ## Deciding on a rule
 
@@ -102,10 +100,9 @@ So now we have 3 rules we can use:
    1. Married approved, single reject. 57.69% accuracy.
 
 Which one should we use if we can only pick one?
-
-      1. Gender
-      1. Income
-      1. Martial Status
+ 1. Gender
+ 1. Income
+ 1. Martial Status
 
 
 # Discussion
